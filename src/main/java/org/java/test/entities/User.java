@@ -8,6 +8,9 @@ public class User implements Serializable {
 
     private String userName;
 
+    /**
+     * transient修饰的变量不会被持久化
+     */
     private transient String password;
 
     public User(){
